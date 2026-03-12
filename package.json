@@ -1,0 +1,35 @@
+{
+  "name": "@goastian/mw-evm-wallet",
+  "version": "1.9.2",
+  "description": "EVM Wallet for Midori Wallet",
+  "author": "Midori Wallet <contact@astian.org> (https://astian.org/)",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./errors": "./lib/errors.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/midoriwallet/mw-evm-wallet.git"
+  },
+  "scripts": {
+    "lint": "eslint --report-unused-disable-directives .",
+    "test": "mocha test --reporter spec"
+  },
+  "dependencies": {
+    "@noble/hashes": "^1.5.0",
+    "@scure/bip32": "^1.5.0",
+    "micro-eth-signer": "^0.15.0"
+  },
+  "peerDependencies": {
+    "@goastian/mw-common": "^1.1.12"
+  },
+  "devDependencies": {
+    "eslint": "^9.27.0",
+    "@goastian/eslint-config-mw": "^3.0.1",
+    "mocha": "^11.4.0",
+    "sinon": "^20.0.0"
+  }
+}
