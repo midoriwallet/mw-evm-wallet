@@ -1,6 +1,6 @@
 {
   "name": "@goastian/mw-evm-wallet",
-  "version": "1.9.2",
+  "version": "1.9.3",
   "description": "EVM Wallet for Midori Wallet",
   "author": "Midori Wallet <contact@astian.org> (https://astian.org/)",
   "license": "MIT",
